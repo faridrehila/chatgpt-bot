@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Container {
+  width: 50%;
+  margin: auto;
+  min-height: 10rem;
+  margin-top: 3rem;
+  border: solid lightblue 3px;
+  border-radius: 5px;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ChatInput {
+  width: 100%;
+  margin-top: 2rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ChatInput input {
+  width: 85%;
+  border: solid lightblue 1px;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ChatInput button {
+  background-color: #0984e3;
+  border: solid lightblue 1px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.ChatMessages {
+  display: flex;
+  flex-direction: column;
+}
+
+.ChatBubble {
+  width: 45%;
+  background-color: #dfe6e9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.User {
+  align-self: flex-end;
+  background-color: #dff9fb;
+}
